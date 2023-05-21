@@ -9,7 +9,13 @@
 
 <h1>This is html page......</h1>
 
-<a href="servletlc">Life Cycle of Servlet</a>
+
+<a href="servletlc">Servlet Life Cycle</a> <br>
+
+<a href="servletconifg">Servlet Config</a> <br>
+
+<a href="servletcontext">Servlet Context</a> <br>
+
 
 </body>
 </html>

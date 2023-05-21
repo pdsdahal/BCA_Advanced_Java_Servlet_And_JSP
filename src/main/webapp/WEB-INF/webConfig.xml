@@ -5,25 +5,30 @@
 	id="WebApp_ID" version="4.0">
 	<display-name>BCA_AJ_ServletAndJSP</display-name>
 
-	<context-param>
-		<param-name>UserName</param-name>
-		<param-value>Admin124</param-value>
-	</context-param>
 
-	<context-param>
-		<param-name>UserPassword</param-name>
-		<param-value>12345678</param-value>
-	</context-param>
+
 
 	<servlet>
-		<servlet-name>ServletContext</servlet-name>
-		<servlet-class>com.unit4.servletcontext.ServletContextDemo</servlet-class>
+		<servlet-name>ServletConfig</servlet-name>
+		<servlet-class>com.unit4.servletconfig.ServletConfigDemo</servlet-class>
 
+		<init-param>
+			<param-name>userName</param-name>
+			<param-value>Admin</param-value>
+		</init-param>
+		
+		
+		<init-param>
+			<param-name>userPassword</param-name>
+			<param-value>Admin1234</param-value>
+		</init-param>
+		
+		
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>ServletContext</servlet-name>
-		<url-pattern>/servletcontext</url-pattern>
+		<servlet-name>ServletConfig</servlet-name>
+		<url-pattern>/servletconifg</url-pattern>
 	</servlet-mapping>
 
 
